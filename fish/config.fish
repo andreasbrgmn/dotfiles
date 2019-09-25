@@ -52,5 +52,8 @@ set -g __fish_git_prompt_showdirtystate "1"
 . $HOME/.config/fish/solarized.fish
 . $HOME/.config/fish/ls.fish
 
+# pyenv
+source (pyenv init - |psub)
+
 # mkdir -p ~/.rubies
 # . $HOME/.config/fish/rubies.fish
